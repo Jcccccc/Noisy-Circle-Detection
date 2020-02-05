@@ -1,0 +1,133 @@
+Train on 72000 samples, validate on 8000 samples
+Epoch 1/30
+2020-02-05 04:48:35.759122: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-02-05 04:48:35.766810: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library libcuda.so.1
+2020-02-05 04:48:35.772412: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: CUDA_ERROR_UNKNOWN: unknown error
+2020-02-05 04:48:35.772489: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: tensorflow-test1-vm
+2020-02-05 04:48:35.772521: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: tensorflow-test1-vm
+2020-02-05 04:48:35.772640: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 410.104.0
+2020-02-05 04:48:35.772704: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 410.104.0
+2020-02-05 04:48:35.772729: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 410.104.0
+2020-02-05 04:48:35.775767: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2200000000 Hz
+2020-02-05 04:48:35.776121: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e33ebf4a50 executing computations on platform Host. Devices:
+2020-02-05 04:48:35.776161: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-02-05 04:48:35.976224: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+72000/72000 [==============================] - 454s 6ms/step - loss: 0.0863 - val_loss: 0.0105
+
+Epoch 00001: val_loss improved from inf to 0.01048, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 2/30
+72000/72000 [==============================] - 449s 6ms/step - loss: 0.0109 - val_loss: 0.0051
+
+Epoch 00002: val_loss improved from 0.01048 to 0.00509, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 3/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0124 - val_loss: 0.0024
+
+Epoch 00003: val_loss improved from 0.00509 to 0.00236, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 4/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0035 - val_loss: 0.0021
+
+Epoch 00004: val_loss improved from 0.00236 to 0.00211, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 5/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0034 - val_loss: 0.0033
+
+Epoch 00005: val_loss did not improve from 0.00211
+Epoch 6/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0019 - val_loss: 0.0015
+
+Epoch 00006: val_loss improved from 0.00211 to 0.00153, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 7/30
+72000/72000 [==============================] - 448s 6ms/step - loss: 0.0022 - val_loss: 0.0017
+
+Epoch 00007: val_loss did not improve from 0.00153
+Epoch 8/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0015 - val_loss: 8.9166e-04
+
+Epoch 00008: val_loss improved from 0.00153 to 0.00089, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 9/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0013 - val_loss: 9.6309e-04
+
+Epoch 00009: val_loss did not improve from 0.00089
+Epoch 10/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0012 - val_loss: 0.0010
+
+Epoch 00010: val_loss did not improve from 0.00089
+Epoch 11/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 0.0011 - val_loss: 9.2523e-04
+
+Epoch 00011: val_loss did not improve from 0.00089
+Epoch 12/30
+72000/72000 [==============================] - 448s 6ms/step - loss: 9.8352e-04 - val_loss: 9.5386e-04
+
+Epoch 00012: val_loss did not improve from 0.00089
+Epoch 13/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 9.9133e-04 - val_loss: 7.6513e-04
+
+Epoch 00013: val_loss improved from 0.00089 to 0.00077, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 14/30
+72000/72000 [==============================] - 448s 6ms/step - loss: 8.7743e-04 - val_loss: 0.0011
+
+Epoch 00014: val_loss did not improve from 0.00077
+Epoch 15/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 8.3901e-04 - val_loss: 7.1805e-04
+
+Epoch 00015: val_loss improved from 0.00077 to 0.00072, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 16/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 8.0909e-04 - val_loss: 0.0010
+
+Epoch 00016: val_loss did not improve from 0.00072
+Epoch 17/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 7.7043e-04 - val_loss: 7.5332e-04
+
+Epoch 00017: val_loss did not improve from 0.00072
+Epoch 18/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 7.4994e-04 - val_loss: 9.2588e-04
+
+Epoch 00018: val_loss did not improve from 0.00072
+Epoch 19/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 7.3545e-04 - val_loss: 9.4260e-04
+
+Epoch 00019: val_loss did not improve from 0.00072
+Epoch 20/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 7.1287e-04 - val_loss: 0.0012
+
+Epoch 00020: val_loss did not improve from 0.00072
+Epoch 21/30
+72000/72000 [==============================] - 448s 6ms/step - loss: 6.8994e-04 - val_loss: 7.0729e-04
+
+Epoch 00021: val_loss improved from 0.00072 to 0.00071, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 22/30
+72000/72000 [==============================] - 448s 6ms/step - loss: 6.7298e-04 - val_loss: 7.0228e-04
+
+Epoch 00022: val_loss improved from 0.00071 to 0.00070, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 23/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 6.5855e-04 - val_loss: 7.5281e-04
+
+Epoch 00023: val_loss did not improve from 0.00070
+Epoch 24/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 6.6103e-04 - val_loss: 7.7933e-04
+
+Epoch 00024: val_loss did not improve from 0.00070
+Epoch 25/30
+72000/72000 [==============================] - 448s 6ms/step - loss: 6.3784e-04 - val_loss: 6.2116e-04
+
+Epoch 00025: val_loss improved from 0.00070 to 0.00062, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 26/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 6.2418e-04 - val_loss: 6.5256e-04
+
+Epoch 00026: val_loss did not improve from 0.00062
+Epoch 27/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 6.3418e-04 - val_loss: 0.0015
+
+Epoch 00027: val_loss did not improve from 0.00062
+Epoch 28/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 6.0457e-04 - val_loss: 5.8892e-04
+
+Epoch 00028: val_loss improved from 0.00062 to 0.00059, saving model to ./models/sequential_model_pool5_5c_32_72.hdf5
+Epoch 29/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 5.9617e-04 - val_loss: 7.1410e-04
+
+Epoch 00029: val_loss did not improve from 0.00059
+Epoch 30/30
+72000/72000 [==============================] - 447s 6ms/step - loss: 7.1827e-04 - val_loss: 6.3030e-04
+
+Epoch 00030: val_loss did not improve from 0.00059
